@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montserrat:wght@100;400&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@200;300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    
+}
+
+header a{
+    margin: 5px;
+    color: #202124;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.right-side{
+    display: flex;
+}
+
+.right-side div{
+    margin: 5px;
+}
+
+.right-side #apps, .right-side #profile {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.right-side #profile {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+
+
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 24px;
+   
+    
+    
+   
+}
+
+main div h1{
+    padding: 0; margin: 0;
+    font-weight: bold;
+    font-size: 90px;
+    
+}
+
+
+
+#G {
+    font-size: 110px;
+    color: #4285F4;
+}
+
+#o1{
+   color: #EA4335; 
+}
+
+#o2{
+    color: #FBBC05;
+}
+
+#g{
+    color: #4285F4;
+}
+
+#l {
+    color: #34A853;
+}
+
+#e {
+    color: #EA4335;
+    
+}
+
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+   
+    padding-bottom: 150px;
+}
+
+input {
+  
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #E7E7E7 ;
+}
+
+input:hover {
+    border: 1px solid #E7E7E7 ;
+    box-shadow: 1px 1px 10px 1px gainsboro;
+}
+
+input::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+footer {
+    background-color: #F2F2F2;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer a{
+    color: #70757A;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+ footer #first {
+    display: flex;
+    justify-content: center;
+    
+    font-weight: bold;
+    
+}
+
+footer #first div{
+    margin: 5px;
+}
+
+footer #second {
+    padding: 29px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.links a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    
+    input {
+        width: 400px;
+    }
+
+
+    footer #second {
+        display: inline;
+        text-align: center;
+    }
+
+}
+
+
